@@ -1,20 +1,20 @@
 package pattern1.print1;
 
-public class HappyNewYear1 {
+public class PrintPattern {
 
 	public static void main(String[] args) {
-		System.out.println("Happy + New +Year=");
+		System.out.println("Print pattern");
 		for(int i=0;i<=4;i++)
 		{		
-			for(int j=0;j<=i;j++) {
-		System.out.print(" "+2+" ");
-		System.out.print(" "+0+"  ");
-		System.out.print(" "+2+"  ");
-		System.out.print(" "+3+"  ");
+			for(int j=0;j<5;j++)
+			{		
+		System.out.print(" *");
 		}
-			System.out.println();
+			System.out.println("  ");
+		}
+		System.out.println();	
 		}
 		
 	}
 
-}
+
